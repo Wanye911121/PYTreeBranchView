@@ -5,6 +5,27 @@
 [![License](https://img.shields.io/cocoapods/l/PYTreeBranchView.svg?style=flat)](http://cocoapods.org/pods/PYTreeBranchView)
 [![Platform](https://img.shields.io/cocoapods/p/PYTreeBranchView.svg?style=flat)](http://cocoapods.org/pods/PYTreeBranchView)
 
+## Using
+
+initalize：
+
+```
+[PYTreeView setupBranchTextWithArray:@[@"这是第一个标题",@"这是第二个标题",@"这是第三个标题"] style:PYTreeStyleDoubleLeft];
+[self.view addSubview:self.treeView];
+```
+
+display：
+
+```
+[self.treeView displayInPoint:CGPointMake(CGRectGetMidX(self.view.bounds), CGRectGetMidY(self.view.bounds))];
+
+```
+
+## effect
+
+![image](https://github.com/MikeZhangpy/PYTreeBranchView/blob/master/sample1.png)  
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -27,3 +48,5 @@ MikeZhangpy, zhangpy1991@126.com
 ## License
 
 PYTreeBranchView is available under the MIT license. See the LICENSE file for more info.
+
+
