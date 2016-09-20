@@ -1,0 +1,14 @@
+PODS:
+  - PYTreeBranchView (0.1.0)
+
+DEPENDENCIES:
+  - PYTreeBranchView (from `../`)
+
+EXTERNAL SOURCES:
+  PYTreeBranchView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PYTreeBranchView: f4f930e07acaf86babb3bedac162507d7399767d
+
+COCOAPODS: 0.39.0

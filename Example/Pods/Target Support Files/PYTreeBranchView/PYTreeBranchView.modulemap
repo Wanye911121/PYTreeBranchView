@@ -1,0 +1,6 @@
+framework module PYTreeBranchView {
+  umbrella header "PYTreeBranchView-umbrella.h"
+
+  export *
+  module * { export * }
+}
