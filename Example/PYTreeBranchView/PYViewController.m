@@ -7,6 +7,7 @@
 //
 
 #import "PYViewController.h"
+#import "PYTreeView.h"
 
 @interface PYViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor grayColor];
+    PYTreeView *treeView = [PYTreeView setupBranchTextWithArray:@[@"这是第一个标题",@"这是第二个标题",@"这是第三个标题"]];
+    [self.view addSubview:treeView];
+    [treeView displayInPoint:CGPointMake(100, 100)];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
