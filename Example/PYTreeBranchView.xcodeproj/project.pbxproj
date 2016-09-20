@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		574C98B71D90DCAD006BDBE7 /* PYTreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 574C98B61D90DCAD006BDBE7 /* PYTreeView.m */; };
-		574C98BA1D90DCBA006BDBE7 /* PYPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 574C98B91D90DCBA006BDBE7 /* PYPointView.m */; };
-		574C98BD1D90DCD5006BDBE7 /* PYTreeBranchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 574C98BC1D90DCD5006BDBE7 /* PYTreeBranchView.m */; };
-		574C98C11D90F162006BDBE7 /* PYCenterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 574C98C01D90F162006BDBE7 /* PYCenterLayer.m */; };
-		574C98C41D90F715006BDBE7 /* PYBranchLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 574C98C31D90F715006BDBE7 /* PYBranchLayer.m */; };
-		574C98C71D90FECD006BDBE7 /* PYBranchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 574C98C61D90FECD006BDBE7 /* PYBranchModel.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -42,19 +36,6 @@
 /* Begin PBXFileReference section */
 		03A322509D9783D16B654EBD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		30ECEC3940BDF93E35C3BEA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		574C98B51D90DCAD006BDBE7 /* PYTreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYTreeView.h; sourceTree = "<group>"; };
-		574C98B61D90DCAD006BDBE7 /* PYTreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYTreeView.m; sourceTree = "<group>"; };
-		574C98B81D90DCBA006BDBE7 /* PYPointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYPointView.h; sourceTree = "<group>"; };
-		574C98B91D90DCBA006BDBE7 /* PYPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYPointView.m; sourceTree = "<group>"; };
-		574C98BB1D90DCD5006BDBE7 /* PYTreeBranchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYTreeBranchView.h; sourceTree = "<group>"; };
-		574C98BC1D90DCD5006BDBE7 /* PYTreeBranchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYTreeBranchView.m; sourceTree = "<group>"; };
-		574C98BE1D90EC0C006BDBE7 /* PYConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYConst.h; sourceTree = "<group>"; };
-		574C98BF1D90F162006BDBE7 /* PYCenterLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYCenterLayer.h; sourceTree = "<group>"; };
-		574C98C01D90F162006BDBE7 /* PYCenterLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYCenterLayer.m; sourceTree = "<group>"; };
-		574C98C21D90F715006BDBE7 /* PYBranchLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYBranchLayer.h; sourceTree = "<group>"; };
-		574C98C31D90F715006BDBE7 /* PYBranchLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYBranchLayer.m; sourceTree = "<group>"; };
-		574C98C51D90FECD006BDBE7 /* PYBranchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYBranchModel.h; sourceTree = "<group>"; };
-		574C98C61D90FECD006BDBE7 /* PYBranchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYBranchModel.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PYTreeBranchView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYTreeBranchView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -143,19 +124,6 @@
 				6003F5A6195388D20070C39A /* PYViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
-				574C98B51D90DCAD006BDBE7 /* PYTreeView.h */,
-				574C98B61D90DCAD006BDBE7 /* PYTreeView.m */,
-				574C98B81D90DCBA006BDBE7 /* PYPointView.h */,
-				574C98B91D90DCBA006BDBE7 /* PYPointView.m */,
-				574C98BB1D90DCD5006BDBE7 /* PYTreeBranchView.h */,
-				574C98BC1D90DCD5006BDBE7 /* PYTreeBranchView.m */,
-				574C98BE1D90EC0C006BDBE7 /* PYConst.h */,
-				574C98BF1D90F162006BDBE7 /* PYCenterLayer.h */,
-				574C98C01D90F162006BDBE7 /* PYCenterLayer.m */,
-				574C98C21D90F715006BDBE7 /* PYBranchLayer.h */,
-				574C98C31D90F715006BDBE7 /* PYBranchLayer.m */,
-				574C98C51D90FECD006BDBE7 /* PYBranchModel.h */,
-				574C98C61D90FECD006BDBE7 /* PYBranchModel.m */,
 			);
 			name = "Example for PYTreeBranchView";
 			path = PYTreeBranchView;
@@ -300,14 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* PYAppDelegate.m in Sources */,
-				574C98C71D90FECD006BDBE7 /* PYBranchModel.m in Sources */,
-				574C98C11D90F162006BDBE7 /* PYCenterLayer.m in Sources */,
-				574C98BA1D90DCBA006BDBE7 /* PYPointView.m in Sources */,
 				6003F5A7195388D20070C39A /* PYViewController.m in Sources */,
-				574C98BD1D90DCD5006BDBE7 /* PYTreeBranchView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				574C98C41D90F715006BDBE7 /* PYBranchLayer.m in Sources */,
-				574C98B71D90DCAD006BDBE7 /* PYTreeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

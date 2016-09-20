@@ -8,7 +8,7 @@
 
 #import "PYTreeBranchView.h"
 
-static const CGFloat kBranchViewH = 25.f;
+static const CGFloat kBranchViewH = 24.f;
 static const CGFloat kBranchPadding = 10.f;
 
 @interface PYTreeBranchView()
@@ -55,7 +55,7 @@ static const CGFloat kBranchPadding = 10.f;
 - (void)displayInPoint:(CGPoint)point branchDirection:(PYTreeBranchDirection)direction {
 
     [self.textLabel sizeToFit];
-    CGFloat width = CGRectGetWidth(self.textLabel.bounds) + kBranchPadding;
+    CGFloat width = CGRectGetWidth(self.textLabel.bounds) + kBranchPadding * 2;
     
     CGRect frame = CGRectZero;
     
@@ -86,9 +86,9 @@ static const CGFloat kBranchPadding = 10.f;
 - (void)setupBackgroundImageWithDirection:(PYTreeBranchDirection)direction {
     
     if (direction == PYTreeBranchDirectionLeft) {
-        [self.backgroundImageView setImage:[UIImage imageNamed:@"tag-background-left"]];
+        [self.backgroundImageView setImage:[[UIImage imageNamed:@"tag_left"] resizableImageWithCapInsets:UIEdgeInsetsMake(10, 10, 10, 10) resizingMode:UIImageResizingModeStretch]];
     }else {
-        [self.backgroundImageView setImage:[UIImage imageNamed:@"tag-background-right"]];
+        [self.backgroundImageView setImage:[[UIImage imageNamed:@"tag_right"] resizableImageWithCapInsets:UIEdgeInsetsMake(10, 10, 10, 10) resizingMode:UIImageResizingModeStretch]];
     }
 }
 

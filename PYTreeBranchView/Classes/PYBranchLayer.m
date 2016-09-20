@@ -8,7 +8,7 @@
 
 #import "PYBranchLayer.h"
 
-@interface PYBranchLayer ()
+@interface PYBranchLayer ()<CAAnimationDelegate>
 
 @property (nonatomic, copy) PYBranchLayerAnimationCompletion completion;
 

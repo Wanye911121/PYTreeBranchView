@@ -10,7 +10,7 @@
 #import "PYTreeView.h"
 
 @interface PYViewController ()
-
+@property (nonatomic,strong) PYTreeView *treeView;
 @end
 
 @implementation PYViewController
@@ -19,10 +19,22 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor grayColor];
-    PYTreeView *treeView = [PYTreeView setupBranchTextWithArray:@[@"这是第一个标题",@"这是第二个标题",@"这是第三个标题"]];
-    [self.view addSubview:treeView];
-    [treeView displayInPoint:CGPointMake(100, 100)];
+    self.treeView = [PYTreeView setupBranchTextWithArray:@[@"这是第一个标题",@"这是第二个标题",@"这是第三个标题"] style:PYTreeStyleDoubleLeft];
+    [self.view addSubview:self.treeView];
+    [self.treeView displayInPoint:CGPointMake(CGRectGetMidX(self.view.bounds), CGRectGetMidY(self.view.bounds))];
+    
+    UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapEvent:)];
+    [self.view addGestureRecognizer:tapGesture];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)tapEvent:(UITapGestureRecognizer *)gesture {
+    CGPoint point = [gesture locationInView:gesture.view];
+    if (self.treeView.isShow) {
+        [self.treeView dismiss];
+    }else {
+        [self.treeView displayInPoint:point];
+    }
 }
 
 - (void)didReceiveMemoryWarning

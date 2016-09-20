@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "PYConst.h"
 
 @interface PYTreeView : UIView
 
-+ (instancetype)setupBranchTextWithArray:(NSArray *)textArray;
+@property (nonatomic,assign,readonly) BOOL isShow;
+
++ (instancetype)setupBranchTextWithArray:(NSArray *)textArray style:(PYTreeStyle)treeStyle;
 
 - (void)displayInPoint:(CGPoint)point;
 

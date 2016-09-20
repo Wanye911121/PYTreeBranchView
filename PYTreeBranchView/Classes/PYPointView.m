@@ -22,7 +22,7 @@
 - (UIImageView *)centerImageView {
     if (!_centerImageView) {
         _centerImageView = [[UIImageView alloc] init];
-        _centerImageView.image = [UIImage imageNamed:@"tag-center"];
+        _centerImageView.image = [UIImage imageNamed:@"tag_center"];
     }
     return _centerImageView;
 }

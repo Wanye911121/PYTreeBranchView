@@ -38,6 +38,8 @@ static const CGFloat kCenterPointWH = 12.f;
 
 @property (nonatomic, strong) NSMutableArray *branchPoints;
 
+@property (nonatomic,assign,readwrite) BOOL isShow;
+
 @end
 
 @implementation PYTreeView
@@ -54,7 +56,7 @@ static const CGFloat kCenterPointWH = 12.f;
 - (PYBranchLayer *)secondBranchLayer {
     if (!_secondBranchLayer) {
         _secondBranchLayer = [[PYBranchLayer alloc] init];
-        _secondBranchLayer.toValue = 0.62f;
+        _secondBranchLayer.toValue = 0.6f;
     }
     return _secondBranchLayer;
 }
@@ -131,7 +133,6 @@ static const CGFloat kCenterPointWH = 12.f;
     return _branchPoints;
 }
 
-
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
         [self setup];
@@ -145,7 +146,6 @@ static const CGFloat kCenterPointWH = 12.f;
 }
 
 - (void)setup {
-    
     [self.layer addSublayer:self.firstBranchLayer];
     [self.layer addSublayer:self.secondBranchLayer];
     [self.layer addSublayer:self.thirdBranchLayer];
@@ -155,7 +155,7 @@ static const CGFloat kCenterPointWH = 12.f;
     [self addSubview:self.centerPointView];
 }
 
-+ (instancetype)setupBranchTextWithArray:(NSArray *)textArray {
++ (instancetype)setupBranchTextWithArray:(NSArray *)textArray style:(PYTreeStyle)treeStyle {
     
     PYTreeView * treeView = [[PYTreeView alloc] init];
     treeView.branchCount = textArray.count;
@@ -163,10 +163,12 @@ static const CGFloat kCenterPointWH = 12.f;
     treeView.firstBranchView.branchText = textArray[0];
     treeView.secondBranchView.branchText = textArray[1];
     treeView.thirdBranchView.branchText = textArray[2];
+    treeView.treeStyle = treeStyle;
     return treeView;
 }
 
 - (void)displayInPoint:(CGPoint)point {
+    self.alpha = 1;
     self.center = point;
     
     CGPoint center = CGPointMake(CGRectGetMidX(self.bounds), CGRectGetMidY(self.bounds));
@@ -175,8 +177,9 @@ static const CGFloat kCenterPointWH = 12.f;
     self.centerPointView.alpha = 1.0;
     self.centerPointView.center = center;
     
-    self.treeStyle = PYTreeStyleDoubleRight;
     [self animation];
+    
+    self.isShow = YES;
 }
 
 - (void)animation {
@@ -249,11 +252,11 @@ static const CGFloat kCenterPointWH = 12.f;
     branchLayer.radius = 3;
 }
 
-
 - (void)dismiss {
     [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
         self.alpha = 0.0;
     } completion:^(BOOL finished) {
+        self.isShow = NO;
     }];
 }
 

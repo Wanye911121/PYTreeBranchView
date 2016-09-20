@@ -5,8 +5,5 @@ target 'PYTreeBranchView_Example' do
 
   target 'PYTreeBranchView_Tests' do
     inherit! :search_paths
-
-    pod 'Specta'
-  pod 'Expecta'
   end
 end
