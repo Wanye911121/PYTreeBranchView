@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'PYTreeBranchView/Classes/*'
   
-  s.resources    = 'PYTreeBranchView/Resource/*'
+  s.resources    = 'PYTreeBranchView/Resources/*’
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
