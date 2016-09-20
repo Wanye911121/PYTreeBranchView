@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor grayColor];
-    self.treeView = [PYTreeView setupBranchTextWithArray:@[@"这是第一个标题",@"这是第二个标题",@"这是第三个标题"] style:PYTreeStyleDoubleLeft];
+    self.treeView = [PYTreeView setupBranchTextWithArray:@[@"美丽款",@"追星必备",@"addidas"] style:PYTreeStyleDoubleRight];
     [self.view addSubview:self.treeView];
     [self.treeView displayInPoint:CGPointMake(CGRectGetMidX(self.view.bounds), CGRectGetMidY(self.view.bounds))];
     

@@ -21,9 +21,13 @@ display：
 
 ```
 
-## effect
+## Effect
+
+four style for tree
 
 ![image](https://github.com/MikeZhangpy/PYTreeBranchView/blob/master/sample1.png)  
+
+![image](https://github.com/MikeZhangpy/PYTreeBranchView/blob/master/sample2.png) 
 
 
 ## Example
