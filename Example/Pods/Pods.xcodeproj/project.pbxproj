@@ -51,7 +51,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>01BD19217A44D7D28293614354FA40F5</key>
+		<key>02AA0607D4C4DB97A59022250397331B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -62,14 +62,14 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>046492289DDEC65801C1FADD5F322ACC</key>
+		<key>03CF2986C8446782C5A06C4910BD5F95</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>path</key>
-			<string>tag_center@3x.png</string>
+			<string>tag_left@3x.png</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -97,17 +97,6 @@
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
 			<string>PYCenterLayer.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0A40B9FC195832E843F6B6A9A618F2D9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>tag_right@2x.png</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -348,17 +337,6 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>3E7D9BE2A5EC3F8B4BF7D4D4D682B3A8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>tag_left@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>4415B31C986A9D8540596C48D137F307</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -582,17 +560,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>58F23FA2B8046C1E8F4A005586A92E7C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>tag_center@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>5C649D8C8E86464A2CB718C316760016</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -616,6 +583,28 @@
 			<string>sourcecode.c.h</string>
 			<key>path</key>
 			<string>Pods-PYTreeBranchView_Example-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>62743CD966C2386F844F1F246A5655A5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>tag_left@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>68CC61A013FA53CD9E5F15B4E93F8470</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>tag_center@2x.png</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -659,7 +648,7 @@
 		<key>6F311E20BC1F802C8ED60A7546C95E56</key>
 		<dict>
 			<key>fileRef</key>
-			<string>58F23FA2B8046C1E8F4A005586A92E7C</string>
+			<string>68CC61A013FA53CD9E5F15B4E93F8470</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -812,7 +801,7 @@
 		<key>8124337D78A18AEA3EC2E417A829F48A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0A40B9FC195832E843F6B6A9A618F2D9</string>
+			<string>A42F9D8DDFD6DF989905C09A3A0152EC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1064,18 +1053,14 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A3A6B1746AF8F7F083D69ABC74D638BA</key>
+		<key>A42F9D8DDFD6DF989905C09A3A0152EC</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>D6E94706F705DD1CF9C0845E8A23B49A</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>PYTreeBranchView</string>
+			<string>PBXFileReference</string>
 			<key>path</key>
-			<string>PYTreeBranchView</string>
+			<string>tag_right@2x.png</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1141,6 +1126,21 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>A6E5AF9EDD9425FC535A435BB13CEB78</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B3C1B285BCACC8F05C1B00EFA0CA83F0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>PYTreeBranchView</string>
+			<key>path</key>
+			<string>PYTreeBranchView</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>A9B0DFADD4B234E071BD9265920AED33</key>
 		<dict>
 			<key>fileRef</key>
@@ -1151,20 +1151,9 @@
 		<key>AA4821DA502A112853450B04989AFE76</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3E7D9BE2A5EC3F8B4BF7D4D4D682B3A8</string>
+			<string>62743CD966C2386F844F1F246A5655A5</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>AA731BB5FCC3C22F5A82F1269E186CAE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>tag_left@3x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>AB043147061E3FED3C7F140DB94420DC</key>
 		<dict>
@@ -1206,6 +1195,26 @@
 			<string>385F512406AB8B65AB18163B93AABD21</string>
 			<key>remoteInfo</key>
 			<string>PYTreeBranchView</string>
+		</dict>
+		<key>B3C1B285BCACC8F05C1B00EFA0CA83F0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>68CC61A013FA53CD9E5F15B4E93F8470</string>
+				<string>BCE693FCD3502E746486D0049BFE64AC</string>
+				<string>62743CD966C2386F844F1F246A5655A5</string>
+				<string>03CF2986C8446782C5A06C4910BD5F95</string>
+				<string>A42F9D8DDFD6DF989905C09A3A0152EC</string>
+				<string>02AA0607D4C4DB97A59022250397331B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>path</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B566502BCFD6508F7724C495F1B74E14</key>
 		<dict>
@@ -1270,6 +1279,17 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>BCE693FCD3502E746486D0049BFE64AC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>tag_center@3x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
 		<dict>
 			<key>children</key>
@@ -1286,21 +1306,21 @@
 		<key>C457F466B4DE57C732CF828456D71525</key>
 		<dict>
 			<key>fileRef</key>
-			<string>01BD19217A44D7D28293614354FA40F5</string>
+			<string>02AA0607D4C4DB97A59022250397331B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>C4CA19048B71CFE218127FF19E28E2C8</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AA731BB5FCC3C22F5A82F1269E186CAE</string>
+			<string>03CF2986C8446782C5A06C4910BD5F95</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>CA79B2B155AD80056E9C2FFD25D14A82</key>
 		<dict>
 			<key>fileRef</key>
-			<string>046492289DDEC65801C1FADD5F322ACC</string>
+			<string>BCE693FCD3502E746486D0049BFE64AC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1422,26 +1442,6 @@
 				<string>385F512406AB8B65AB18163B93AABD21</string>
 			</array>
 		</dict>
-		<key>D6E94706F705DD1CF9C0845E8A23B49A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>58F23FA2B8046C1E8F4A005586A92E7C</string>
-				<string>046492289DDEC65801C1FADD5F322ACC</string>
-				<string>3E7D9BE2A5EC3F8B4BF7D4D4D682B3A8</string>
-				<string>AA731BB5FCC3C22F5A82F1269E186CAE</string>
-				<string>0A40B9FC195832E843F6B6A9A618F2D9</string>
-				<string>01BD19217A44D7D28293614354FA40F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resource</string>
-			<key>path</key>
-			<string>Resource</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>DC5E7DBCA8D5B20FB9575B91D553FD3B</key>
 		<dict>
 			<key>children</key>
@@ -1544,7 +1544,7 @@
 		<dict>
 			<key>children</key>
 			<array>
-				<string>A3A6B1746AF8F7F083D69ABC74D638BA</string>
+				<string>A6E5AF9EDD9425FC535A435BB13CEB78</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>

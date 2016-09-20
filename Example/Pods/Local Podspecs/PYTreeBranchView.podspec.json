@@ -18,5 +18,5 @@
     "ios": "8.0"
   },
   "source_files": "PYTreeBranchView/Classes/*",
-  "resources": "PYTreeBranchView/Resource/*"
+  "resources": "PYTreeBranchView/Resources/*"
 }

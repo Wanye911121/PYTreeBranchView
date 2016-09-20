@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PYTreeBranchView: f4f930e07acaf86babb3bedac162507d7399767d
+  PYTreeBranchView: 5e26cea3d8dc58f01a1c95f323ebac3dc0e21bc9
 
 COCOAPODS: 0.39.0
